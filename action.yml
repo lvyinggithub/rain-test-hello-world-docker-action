@@ -8,6 +8,8 @@ inputs:
 outputs:
   time: # id of output
     description: 'The time we greeted you'
+  teststr: # id of output
+    description: 'The teststr '
 runs:
   using: 'docker'
   image: 'Dockerfile'
