@@ -20,4 +20,4 @@ jobs:
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
       - name: Get the output teststr
-        run: echo "The time was ${{ steps.hello.outputs.teststr }}"
+        run: echo "The teststr was ${{ steps.hello.outputs.teststr }}"
