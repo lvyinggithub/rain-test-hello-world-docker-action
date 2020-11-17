@@ -8,7 +8,7 @@ https://github.com/actions/hello-world-docker-action
 
 ## Inputs
 
-### `who-to-greet`
+### `who`
 
 **Required** The name of the person to greet. Default `"World"`.
 
