@@ -21,7 +21,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-docker-action@master
+uses: ./
 with:
   who: 'yourname'
 ```
