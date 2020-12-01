@@ -13,6 +13,6 @@ jobs:
         fail-build: true
     - name: grype scan JSON results
       run: for j in `ls ./anchore-reports/*.json`; do echo "---- ${j} ----"; cat ${j}; echo; done
-    - name: grype scan 
-      run: anchore gate --image localbuild/testimage:latest
+    - name: Inspect action SARIF report
+      run: cat ${{ steps.scan.outputs.sarif }}
 
